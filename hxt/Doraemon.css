@@ -1,0 +1,362 @@
+.duolaamen{
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+}
+.head{
+	width:310px;
+	height:300px;
+	border-radius: 150px;
+	border:2px solid #333333;
+	box-shadow: -5px 10px 15px rgba(0,0,0,0.5);
+	background:linear-gradient(235deg,#fff 0.2%,#07BEEA 40%,#10A6CE 70%,#444444);
+	position:relative;
+	z-index: 2;
+}
+.head .small-head{
+	width: 260px;
+	height: 214px;
+	border:2px solid #000;
+	border-radius:150px;
+	position:absolute;
+	top:70px;
+	left:23px;
+	background:#fff;
+	box-shadow: 5px -5px 10px rgba(68,68,68,0.5) inset;
+}
+.eyes{
+	width:150px;
+	height:85px;
+	position: absolute;
+	top:-30px;
+	left:55px;
+	z-index: 10;
+}
+.eyes .eye{
+	width: 72px;
+    height: 83px;
+	position: absolute;
+    border-radius: 35px 35px;
+    border: 2px solid #000;  
+    background: #fff;
+}
+.eyes .left{
+	left:0;
+}
+.eyes .left .small-left,.eyes .right .small-right{
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	background: #333;
+	position:absolute;
+	bottom:15px;
+	transition:transform 1s linear;
+}
+.eyes .left .small-left{
+	right:15px;
+}
+.eyes .right{
+	right:0;
+}
+.eyes .right .small-right{
+	left:15px;
+}
+.nose{
+	width: 32px;
+	height: 32px;
+	border: 2px solid #000;
+	border-radius: 50px;
+	background:radial-gradient(circle 10px at 20px 12px,#fff 0%,#c93e00);
+	position: absolute;
+	top: 44px;
+	left: 112px;
+	z-index: 2;
+}	
+.line{
+	width: 240px;
+	height: 200px;
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+.line .noseline{
+	background: #333;
+	width: 3px;
+	height: 93px;
+	position: absolute;
+	top: 74px;
+	left: 120px;
+	z-index: 1;
+}
+.line .mouse{
+	width: 230px;
+	height: 200px;
+	border-bottom: 3px solid #333;
+	border-radius: 50%;
+	position:absolute;
+	left:7px;
+	bottom:30px;
+}
+.line .huxu{
+	background: #fff;
+	width: 240px;
+	height: 90px;
+	position: absolute;
+	top: 45px;
+	left: 2px;
+	border-radius: 40px;
+}
+.line .huxu .huxus{
+	background: #333;
+		height: 2px;
+	width: 60px;
+	position: absolute;
+}
+.line .huxu .left{
+	position:absolute;
+	left:15px;
+	top:20px;
+}	
+.line .huxu .left1{
+	transform: rotate(20deg);
+	top:10px;
+}
+.line .huxu .left2{
+	top:30px;
+}
+.line .huxu .left3{
+	transform: rotate(160deg);
+	top:50px;
+}
+.line .huxu .right{
+	position:absolute;
+	right:73px;
+	top:20px;
+}
+.line .huxu .right1{
+	transform: rotate(160deg);
+	top:10px;
+}
+.line .huxu .right2{
+	top:30px;
+}
+.line .huxu .right3{
+	transform: rotate(20deg);
+	top:50px;
+}
+.lingdai{
+	width: 230px;
+	height: 20px;
+	border:2px solid #000 ;
+	background:linear-gradient(180deg,#CA4100,#800400);
+	border-radius: 10px;
+	position: relative;
+	left:40px;
+	top:-25px;
+	z-index: 2;
+}
+.lingdai .bell{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	border: 2px solid #000;
+	background: linear-gradient(#f9f12a 2%,#e9e11a 30%,#a9a100);
+	box-shadow: -5px 5px 10px rgba(0,0,0,0.25);
+	position: absolute;
+	top: 8px;
+	left: 94px;
+}
+.lingdai .bell .bell-1{
+	width: 36px;
+	height: 2px;
+	background: #f9f12a;
+	border: 2px solid #333;
+	position: absolute;
+	top: 10px;
+}
+.lingdai .bell .bell-circle{
+	width: 12px;
+	height: 10px;
+	border-radius: 10px;
+	background: #000;
+	position: absolute;
+	top: 20px;
+	left: 14px;
+}
+.lingdai .bell .bell-2{
+	width: 3px;
+	height: 15px;
+	background: #000;
+	position: absolute;
+	bottom: 0px;
+	left: 18px;
+}
+.bodys{		
+	width: 220px;
+	height: 165px;
+	background: linear-gradient(90deg,#0096BE 25%,#0073b3,#00b0e0,#07BEEA);
+	border: 2px solid #333;
+	position: relative;
+	top: -38px;
+	left: 45px;
+	box-shadow: -5px 0px 20px rgba(0,0,0,0.5);
+}
+.bodys .bodyline1{
+	width:220px;
+	height:77px;
+	background: linear-gradient(90deg,#0096BE 25%,#0073b3,#00b0e0,#07BEEA);
+	position: absolute;
+	top:10px;
+	left:0px;
+	z-index: 1;
+}
+.bodys .duzi{	
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	background: linear-gradient(235deg,#fff 50%,#eee,#444);
+	position: absolute;
+	top:-40px;
+	left:23px;
+	z-index: 1;
+}
+.bodys .duzi .circle{
+	width: 130px;
+	height: 130px;
+	border-radius:0 0 50% 50%;
+	background:#fff;
+	border: 2px solid #000;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.bodys .duzi .circle1{
+	width: 134px;
+	height: 75px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	background:#fff;
+	border-bottom: 2px solid #000;
+}
+.arm-left{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 2px;
+	left: -60px;
+}
+.arm-left .arm{
+	position: relative;
+	width: 80px;
+	height: 50px;
+	background: #0096be;
+	border: solid 1px #000;
+	top: 20px;
+	left: 5px;
+	transform: rotate(145deg);
+	box-shadow: 5px -7px 10px rgba(0,0,0,0.3);
+}
+.arm-left .armline{
+	width:2px;
+	height:20px;
+	background:#333333;
+	position: absolute;
+	top:48px;
+	left:58px;
+}
+
+.arm-left .hand{		
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: 2px solid #000;
+	background: linear-gradient(#fff 40%,#ddd);
+	position: absolute;
+	top:45px;
+	left:-30px;
+}
+.arm-right{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 2px;
+	right: -70px;	
+}
+.arm-right .arm{
+	position: relative;
+	width: 80px;
+	height: 50px;
+	background: #07BEEA;
+	border: solid 1px #000;
+	top: 20px;
+	left: 5px;
+	transform: rotate(35deg);
+	box-shadow: 5px 10px 10px rgba(0,0,0,0.3);
+}
+.arm-right .hand{		
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: 2px solid #000;
+	background: linear-gradient(#fff 40%,#ddd);
+	position: absolute;
+	top:43px;
+	right:-17px;
+}
+.arm-right .armline{
+	width:2px;
+	height:20px;
+	background:#333333;
+	position: absolute;
+	top:46px;
+	left:30px;
+}
+.bodycircle{		
+	width: 20px;
+	height: 10px;
+	background:linear-gradient(#666,#fff);
+	position: absolute;
+	top: 154px;
+	left: 97px;
+	border:2px solid #000;
+	border-radius: 40px 40px 0 0;  	
+}
+.bodycircle1{
+	width: 20px;
+	height: 2px;
+	background:#fff;
+	position: absolute;
+	bottom: -2px;
+	left: 0px;
+}
+.foot{
+	position: relative;
+	width: 280px;
+	height: 40px;
+	top: -42px;
+	left: 20px;
+}
+.foot .footleft{
+	width: 125px;
+	height: 30px;
+	background: linear-gradient(90deg,#999,#eee 20%,#fff);
+	border:2px solid #333;
+	border-radius: 115px 70px 105px 60px;
+	position: relative;
+	left: 8px;
+	top: 2px;
+	box-shadow: -6px 0px 10px rgba(0,0,0,0.3);
+}
+.foot .footright{
+	width: 125px;
+	height: 30px;
+	background: linear-gradient(90deg,#999,#eee 20%,#fff);
+	border:2px solid #333;
+	border-radius: 36px 110px 36px 93px;
+	position: relative;
+	top: -32px;
+	left: 141px;
+	box-shadow: -6px 0px 10px rgba(0,0,0,0.3);
+}

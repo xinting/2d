@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="Doraemon.css">
+</head>
+<script>
+window.onload=function(){
+
+
+    var eyeleft=document.querySelector(".eyes .left .small-left");
+    var eyeright=document.querySelector(".eyes .right .small-right");
+
+    setInterval(function () {
+        eyeleft.style.transform="translate(0px,-20px)";
+        eyeright.style.transform="translate(0,-20px)";
+        eyeleft.addEventListener("webkitTransitionEnd",function(){
+        	eyeleft.style.transform="translate(0px,0px)";
+        })
+        eyeright.addEventListener("webkitTransitionEnd",function(){
+        	eyeright.style.transform="translate(0px,0px)";
+        })
+
+    },2000)
+
+}
+</script>
+<body>
+	<div class="duolaamen">	
+		<div class="head">
+			<div class="small-head">
+				<div class="eyes"> 
+			    	<div class="eye left">
+			    		<div class="small-left"></div>
+			    	</div>  
+			      	<div class="eye right">
+			      		<div class="small-right"></div>
+			      	</div>    
+			    </div>
+			    <div class="nose"></div>
+			    <div class="line">
+			    	<div class="noseline"></div>
+			    	<div class="mouse"></div>
+			    	<div class="huxu">
+			    		<div class="left">
+			    			<div class="huxus left1"></div>
+		    				<div class="huxus left2"></div>
+		    				<div class="huxus left3"></div>
+			    		</div>
+		    			<div class="right">
+			    			<div class="huxus right1"></div>
+		    				<div class="huxus right2"></div>
+		    				<div class="huxus right3"></div>
+			    		</div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<div class="lingdai">
+			<div class="bell">
+				<div class="bell-1"></div>
+				<div class="bell-circle"></div>
+				<div class="bell-2"></div>
+			</div>
+		</div>
+		<div class="bodys">
+			<div class="bodyline1"></div>
+			<div class="duzi">
+				<div class="circle"></div>
+				<div class="circle1"></div>
+			</div>
+			<div class="arm-left"> 
+				<div class="arm"></div> 
+				<div class="armline"></div>
+				<div class="hand"></div> 
+		    </div>
+		    <div class="arm-right"> 
+				<div class="arm"></div> 
+				<div class="armline"></div>
+				<div class="hand"></div> 
+		    </div>
+		    <div class="bodycircle">
+		    	<div class="bodycircle1"></div>
+		    </div>
+		</div>
+		<div class="foot">
+			<div class="footleft"></div>
+			<div class="footright"></div>
+		</div>
+		
+	</div>
+</body>
+</html>
